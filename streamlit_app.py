@@ -5,6 +5,10 @@ import pandas as pd
 import plotly.graph_objects as go
 
 
+
+#LIMITATION! - I have hardcoded some lines which I would have called directly from the API. However, due to the limitations of the API calls due to a pay wall, I have had to hardcoded some lines. These are the values which stay the same such as airport names, times, etc., and I chose not to put them in the database to help with efficiency. If I were to do this project again, I would choose an API with unlimited calls. 
+
+
 #BANNER
 # Set page config - allow space for the banner 
 st.set_page_config(layout="wide")
