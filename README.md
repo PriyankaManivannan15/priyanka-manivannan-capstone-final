@@ -9,7 +9,7 @@ This project tracks the prices from Skyscanner by calling an unofficial API. Inf
 
 
 ## Part 1
-Created a Python script to obtain flight prices from the API and the current date and time the server running the python script. The .py script sits on a job server, running a CRON job every 3 hours. Next, it will store the data on a SQL database.
+I created a Python script to obtain flight prices from the API and the current date and time the server is running the Python script. The .py script sits on a job server, running a CRON job every 3 hours. Next, it will store the data on a SQL database.
 
 ## Part 2 
 A user-friendly Streamlit dashboard serves as the visual interface. It connects to the SQL database, retrieving the stored price data. This data is then transformed into a captivating and interactive graph, showcasing price fluctuations over time. 
