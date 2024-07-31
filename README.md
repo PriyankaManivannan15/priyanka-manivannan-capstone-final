@@ -7,9 +7,12 @@ The key focus is to help customers make informed financial decisions as flight p
 
 This project tracks the prices from Skyscanner by calling an unofficial API. Information gathered will be stored in a SQL database. Finally, the data will be visualised via an interactive graph on a Streamlit app. 
 
+Link to Streamlit App: https://skyscannerpricetracker.streamlit.app/
+
 
 ## Part 1
 I created a Python script to obtain flight prices from the API and the current date and time the server is running the Python script. The .py script sits on a job server, running a CRON job every 3 hours. Next, it will store the data on a SQL database.
+
 
 ## Part 2 
 A user-friendly Streamlit dashboard serves as the visual interface. It connects to the SQL database, retrieving the stored price data. This data is then transformed into a captivating and interactive graph, showcasing price fluctuations over time. 
